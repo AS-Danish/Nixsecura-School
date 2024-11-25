@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -54,18 +54,18 @@ const Hero = () => {
           <div className="mt-8 flex flex-col sm:flex-row sm:space-x-4 justify-center">
             {/* Register Now Button */}
             <a
-              href="#register"
+              href="/admission"
               className="bg-orange-500 text-white py-3 px-8 sm:py-4 sm:px-10 text-base sm:text-lg rounded-lg mb-4 sm:mb-0 hover:bg-orange-600 transition-all"
             >
-              Register Now
+              Apply for Admission
             </a>
-            {/* Learn More Button */}
-            <a
-              href="#features"
+            {/* Learn More Button with Link tag */}
+            <Link
+              to="#about"
               className="bg-white text-blue-700 py-3 px-8 sm:py-4 sm:px-10 text-base sm:text-lg rounded-lg border-2 border-blue-700 hover:bg-blue-700 hover:text-white transition-all"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
 
