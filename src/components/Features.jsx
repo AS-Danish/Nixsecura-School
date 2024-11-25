@@ -142,7 +142,7 @@ const Features = () => {
           Ready to join a community dedicated to nurturing your child’s growth and success? Apply today!
         </p>
         <a
-          href="#apply-now"
+          href="/admission"
           className="mt-6 inline-block bg-blue-500 text-white py-3 px-8 rounded-lg hover:bg-blue-600 transition-all"
         >
           Apply Now

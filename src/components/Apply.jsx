@@ -7,7 +7,7 @@ const Apply = () => {
       <p className="text-gray-600 mb-8">Join our institution and shape your future with quality education.</p>
       <p className="text-gray-600 mb-8">Fill out the form to start your admission process today!</p>
       <div>
-        <a href="admission-form.html" className="bg-blue-700 text-white py-2 px-6 rounded-lg hover:bg-blue-800">
+        <a href="/admission" className="bg-blue-700 text-white py-2 px-6 rounded-lg hover:bg-blue-800">
           Apply Now
         </a>
       </div>
