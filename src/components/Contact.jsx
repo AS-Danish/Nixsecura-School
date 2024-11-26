@@ -38,7 +38,7 @@ const Contact = () => {
                     </a>
                     <a href="javascript:;" className="flex items-center">
                       <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" className="text-indigo-700" />
-                      <h5 className="text-black text-base font-normal leading-6 ml-5">654 Sycamore Avenue, Meadowville, WA 76543</h5>
+                      <h5 className="text-black text-base font-normal leading-6 ml-5">123 Sample Street, Example, AC 123456</h5>
                     </a>
                   </div>
                 </div>
